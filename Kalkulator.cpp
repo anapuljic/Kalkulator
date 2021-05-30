@@ -10,7 +10,7 @@ int main (void){
 		int select, o;
 	
 	while(x != 1 && x != 2){
-		printf("\n1 = Operacije\n2 = Raèunanje opsega\nOdaberi funkciju:");
+		printf("1 = Operacije\n2 = Raèunanje opsega\nOdaberi funkciju:");
 		scanf("%d", &x);
 	}
 		
