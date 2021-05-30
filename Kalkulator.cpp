@@ -55,7 +55,7 @@ int main (void){
 	}else{
 		
 		while(o != 1 && o != 2 ){
-			printf("\n1 = Kvadrat\n2 = Pravokutnik\nOdaberi geometrijski lik:");
+			printf("\n1 = Kvadrat\n2 = Pravokutnik\n3 = Trokut\nOdaberi geometrijski lik:");
 			scanf("%d", &o);
 		}
 		
@@ -76,6 +76,18 @@ int main (void){
 				scanf("%d", &strPrav2);
 				opsPrav = (2 * strPrav1) + (2 * strPrav2);
 				printf("\nOpseg pravokutnika je %d", opsPrav);	
+				break;
+				
+			case 3:
+				int opsTro, strTro1, strTro2, strTro3;
+				printf("\nUnesi 1. stranicu: ");
+				scanf("%d", &strTro1);
+				printf("\nUnesi 2. stranicu: ");
+				scanf("%d", &strTro2);
+				printf("\nUnesi 2. stranicu: ");
+				scanf("%d", &strTro3);
+				opsTro = strTro1 + strTro2 + strTro3;
+				printf("\nOpseg pravokutnika je %d", opsTro);	
 				break;
 		}
 			
